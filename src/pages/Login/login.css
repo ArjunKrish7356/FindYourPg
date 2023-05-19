@@ -1,0 +1,80 @@
+
+
+.login{
+    background-image: url(../../images/web-background.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.login-setup{
+    height: 100%;
+    width: 50%;
+}
+.login-setup-nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.login-setup-nav a{  
+    color: black;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: larger;
+    font-weight: 700;
+    margin-left: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+.login-setup-nav a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.login-setup-outcont{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-setup-inncont{
+    height: 50%;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+.sign-in{
+    height:20%;
+    border-radius: 10px;
+    display: flex;
+   align-items: center;
+   padding-left: 20%;
+   padding-right: 20%;
+   gap: 20px;
+}
+.sign-in img{
+    height: 70%;
+}
+.login-image{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login-image img{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+
+}

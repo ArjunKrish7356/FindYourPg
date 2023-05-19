@@ -1,5 +1,6 @@
 .hero{
     height: 100vh;
+    background-image: url(../../images/web-background.jpg);
 }
 .nav{
     padding-top: 10px;
