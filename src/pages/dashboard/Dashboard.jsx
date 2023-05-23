@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./Dashboard.css";
-import logo from "../../images/logo.png";
-import { app, database, storage } from "../../firebase";
+// import logo from "../../images/logo.png";
+import { database, storage } from "../../firebase";
 import { collection, addDoc, getDocs } from "firebase/firestore";
 import { useContext } from "react";
 import { AuthContext } from "../../context";
@@ -42,7 +42,7 @@ export default function Dashboard() {
   };
 
   const [pg, setPg] = useState(initialvalue);
-  const [urlkey, seturlkey] = useState("");
+  const [ seturlkey] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
