@@ -1,6 +1,6 @@
 import './App.css';
 import Hero from './pages/home/hero.jsx'
-import Login from './pages/Login/login';
+import Login from './pages/Login/Login';
 import Dashboard from '../src/pages/dashboard/Dashboard'
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
