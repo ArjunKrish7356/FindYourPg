@@ -1,3 +1,91 @@
+
+.hero{
+    height: 100vh;
+    background-image: url(../../images/web-background.jpg);
+}
+.nav{
+    padding-top: 10px;
+    height: 40px;
+}
+.nav-left{
+    float: left;
+    width: 50%;
+    height: 80%;
+}
+.nav-left h2{
+    color: black;
+    height: 80%;
+    float: left;
+    position: relative;
+    bottom: 15px;
+    padding-left: 30px;
+}
+.nav-right{
+  float: right;
+  width: 50%;
+}
+.nav-right a{
+    border: 1.5px solid black;
+    border-radius: 20px;
+    padding: 3px 20px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 5px;
+    float: right;
+    margin-right: 30px;
+}
+.nav-right a:hover{
+    background-color: black;
+    color: white;
+}
+/* content */
+
+.hero-cont{
+    display: flex;
+    height: 90%;
+    margin: 0%;
+}
+
+.hero-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-left h1{
+    width: 80%;
+    text-align: left;
+}
+.hero-left a{
+    float: left;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    padding: 3px 20px;
+    text-decoration: none;
+    color: black;
+
+}
+.hero-left a:hover{
+    background-color: black;
+    color: white;
+}
+
+.hero-right{
+    width: 50%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right img{
+    height: 300px;
+}
+
 .hero{
     height: 100vh;
     background-image: url(../../images/web-background.jpg);

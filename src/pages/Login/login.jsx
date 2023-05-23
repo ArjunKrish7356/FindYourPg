@@ -5,9 +5,10 @@ import { app } from "../../firebase";
 import { useNavigate } from "react-router-dom";
 
 
-export default function login() {
+export default function Login() {
     const provider = new GoogleAuthProvider();
   const auth = getAuth(app);
+
   const navigate = useNavigate();
   async function handleSignIn() {
 
